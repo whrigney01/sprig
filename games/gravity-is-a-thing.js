@@ -485,7 +485,7 @@ const jump = async () => {
   await resetGravity();
 };
 setInterval(() => {
-  if (getFirst(player).y === 10) return;
+  if (getFirst(player).y === 100) return;
 
   getFirst(player).y++;
 }, 200);
